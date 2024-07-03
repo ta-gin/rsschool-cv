@@ -1,1 +1,1 @@
-# rsschool-cv
+# https://ta-gin.github.io/rsschool-cv/cv
