@@ -1,0 +1,9 @@
+html {
+  font-size: 10px;
+  background-color: plum;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+}
