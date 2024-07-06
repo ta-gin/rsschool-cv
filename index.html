@@ -1,27 +1,180 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
     <title>CV</title>
   </head>
   <body>
-    <header class="header"></header>
-    <main class="main">
-      <section class="summary">
-        <h2 class="heading__primary">Summary</h2>
-        <p class="summary__text">
-          My goal is to become a good developer and gain new knowledge. I am
-          just starting my way in IT, but I can say that I am quickly learn new
-          things. My soft-skills: teamwork, taking responsibility, self-control
-          and positive attitude.
-        </p>
-      </section>
-      <section class="contacts">
-        <h2 class="heading__primary">Contacts</h2>
-      </section>
-    </main>
-    <footer class="footer"></footer>
+    <div class="container">
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__items">
+            <li class="navigation__item">
+              <a href="#contacts" class="navigation__link">contacts</a>
+            </li>
+            <li class="navigation__item">
+              <a href="#summary" class="navigation__link">summary</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#skills" class="navigation__link">skills</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#code" class="navigation__link">code</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#projects" class="navigation__link">projects</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#education" class="navigation__link">education</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#lang" class="navigation__link">language</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="row">
+          <section class="main-info">
+            <div class="main-info__photo">
+              <img
+                src="assets/photo.jpg"
+                alt="Photo of the candidate"
+                class="main-info__img"
+              />
+            </div>
+          </section>
+          <section id="summary" class="summary">
+            <h1 class="heading__primary">Tatyana Ergina</h1>
+            <h2 class="heading__secondary--sub">Junior Frontend Developer</h2>
+            <h2 class="heading__secondary">Summary</h2>
+            <p class="summary__text">
+              My goal is to become a good developer and gain new knowledge. I am
+              just starting my way in IT, but I can say that I am quickly learn
+              new things. My soft-skills: teamwork, taking responsibility,
+              self-control and positive attitude.
+            </p>
+          </section>
+          <section id="contacts" class="contacts">
+            <h2 class="heading__secondary">Contacts</h2>
+            <ul class="contacts__items">
+              <li class="contacts__item">
+                <a
+                  href="https://en.wikipedia.org/wiki/Saint_Petersburg"
+                  class="contacts__link"
+                  >St.Petersburg</a
+                >
+              </li>
+              <li class="contacts__item">
+                <a href="homhom1299@gmail.com" class="contacts__link"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </li>
+              <li class="contacts__item">
+                <a href="https://github.com/ta-gin" class="contacts__link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  href="https://www.codewars.com/users/tat969"
+                  class="contacts__link"
+                ></a>
+              </li>
+            </ul>
+          </section>
+          <section id="skills" class="skills">
+            <h2 class="heading__secondary">Skills</h2>
+            <ul class="skills__items">
+              <li class="skills__item">
+                <i class="fa-brands fa-html5 skills__icon"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fa-brands fa-css3-alt skills__icon"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fa-brands fa-sass skills__icon"></i>
+              </li>
+              <li class="skills__item">
+                <i class="fa-brands fa-js skills__icon"></i>
+              </li>
+            </ul>
+          </section>
+          <section id="code" class="code">
+            <h2 class="heading__secondary">Code</h2>
+
+            <code class="code__example">
+              var stringToNumber = function(str){
+              <pre></pre>
+              &nbsp; return (Number(str));
+              <pre></pre>
+              }
+            </code>
+          </section>
+          <section id="projects" class="projects">
+            <h2 class="heading__secondary">Projects</h2>
+            <div class="projects__items">
+              <div class="projects__item">
+                <img
+                  src="assets/omnifood.jpg"
+                  alt="project screen"
+                  class="projects__img"
+                />
+                <a
+                  href="https://omnifood-ergin.netlify.app/"
+                  class="projects__link"
+                  >Omnifood</a
+                >
+              </div>
+            </div>
+          </section>
+          <section id="education" class="courses">
+            <h2 class="heading__secondary">Education & courses</h2>
+            <ul class="courses__items">
+              <li class="courses__item">
+                course "Build Responsive Real-World Websites with HTML and CSS"
+                by Jonas Schmedtmann
+              </li>
+            </ul>
+          </section>
+          <section id="lang" class="language">
+            <h2 class="heading__secondary">Languages level</h2>
+            <ul class="language__items">
+              <li class="language__item">Russian &#58; native speaker</li>
+              <li class="language__item">English &#58; B1</li>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="footer__container">
+          <a href="https://github.com/ta-gin" class="footer__link"
+            ><i class="fa-brands fa-github footer__icon"></i>
+          </a>
+          <p class="footer__link">2024</p>
+          <a href="https://rs.school/courses/javascript-ru" class="footer__link"
+            ><img src="assets/icons/rss logo.svg" alt="rss logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
   </body>
+  <script
+    src="https://kit.fontawesome.com/278f21e897.js"
+    crossorigin="anonymous"
+  ></script>
 </html>
