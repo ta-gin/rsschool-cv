@@ -1,9 +1,14 @@
-html {
-  font-size: 10px;
-  background-color: plum;
-  margin: 0 auto;
-}
+//Abstracts
+@import "abstracts/variables";
 
-.main {
-  display: flex;
-}
+//Components
+@import "components/main-info";
+
+//Layout
+@import "layout/footer";
+@import "layout/grid";
+@import "layout/header";
+@import "layout/navigation";
+
+//Pages
+@import "pages/home";

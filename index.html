@@ -3,101 +3,115 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" type="image/png" href="assets/icons/favicon.png" />
     <title>CV</title>
   </head>
   <body>
-    <header class="header">
-      <nav class="navigation">
-        <ul class="navigation__items">
-          <li class="navigation__item">
-            <a href="" class="navigation__link">contacts</a>
-          </li>
-          <li class="navigation__item">
-            <a href="" class="navigation__link">summary</a>
-          </li>
+    <div class="container">
+      <header class="header">
+        <nav class="navigation">
+          <ul class="navigation__items">
+            <li class="navigation__item">
+              <a href="" class="navigation__link">contacts</a>
+            </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">summary</a>
+            </li>
 
-          <li class="navigation__item">
-            <a href="" class="navigation__link">skills</a>
-          </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">skills</a>
+            </li>
 
-          <li class="navigation__item">
-            <a href="" class="navigation__link">code</a>
-          </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">code</a>
+            </li>
 
-          <li class="navigation__item">
-            <a href="" class="navigation__link">projects</a>
-          </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">projects</a>
+            </li>
 
-          <li class="navigation__item">
-            <a href="" class="navigation__link">education</a>
-          </li>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">education</a>
+            </li>
 
-          <li class="navigation__item">
-            <a href="" class="navigation__link">english</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <main class="main">
-      <section class="main-info">
-        <div class="main-info__photo">
-          <img
-            src="assets/photo.jpg"
-            alt="Photo of the candidate"
-            class="main-info__img"
-          />
-        </div>
-        <h1 class="heading__primary">Tatyana Ergina</h1>
-        <h2 class="heading__secondary">Junior Frontend Developer</h2>
-      </section>
-      <section class="summary">
-        <h2 class="heading__secondary">Summary</h2>
-        <p class="summary__text">
-          My goal is to become a good developer and gain new knowledge. I am
-          just starting my way in IT, but I can say that I am quickly learn new
-          things. My soft-skills: teamwork, taking responsibility, self-control
-          and positive attitude.
-        </p>
-      </section>
-      <section class="contacts">
-        <h2 class="heading__secondary">Contacts</h2>
-        <ul class="contacts__items">
-          <li class="contacts__item">Saint-Petersburg</li>
-          <li class="contacts__item">
-            <a href="homhom1299@gmail.com" class="contacts__link"
-              ><i class="fa-solid fa-envelope"></i
-            ></a>
-          </li>
-          <li class="contacts__item">
-            <a href="https://github.com/ta-gin" class="contacts__link"
-              ><i class="fa-brands fa-github"></i
-            ></a>
-          </li>
-          <li class="contacts__item">
-            <a
-              href="https://www.codewars.com/users/tat969"
-              class="contacts__link"
-            ></a>
-          </li>
-        </ul>
-      </section>
-      <section class="skills">
-        <h2 class="heading__secondary">Skills</h2>
-        <ul class="skills__items">
-          <li class="skills__item">HTML<i class="fa-brands fa-html5"></i></li>
-          <li class="skills__item">CSS<i class="fa-brands fa-css3-alt"></i></li>
-          <li class="skills__item">Sass<i class="fa-brands fa-sass"></i></li>
-          <li class="skills__item">
-            JavaScript(basic)<i class="fa-brands fa-js"></i>
-          </li>
-        </ul>
-      </section>
-      <section class="code">
-        <h2 class="heading__secondary">Code</h2>
-        <code class="code__example">
-          <pre>
+            <li class="navigation__item">
+              <a href="" class="navigation__link">english</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <main class="main">
+        <div class="row">
+          <section class="main-info">
+            <div class="main-info__photo">
+              <img
+                src="assets/photo.jpg"
+                alt="Photo of the candidate"
+                class="main-info__img"
+              />
+            </div>
+          </section>
+          <section class="summary">
+            <h1 class="heading__primary">Tatyana Ergina</h1>
+            <h2 class="heading__secondary">Junior Frontend Developer</h2>
+            <h2 class="heading__secondary">Summary</h2>
+            <p class="summary__text">
+              My goal is to become a good developer and gain new knowledge. I am
+              just starting my way in IT, but I can say that I am quickly learn
+              new things. My soft-skills: teamwork, taking responsibility,
+              self-control and positive attitude.
+            </p>
+          </section>
+          <section class="contacts">
+            <h2 class="heading__secondary">Contacts</h2>
+            <ul class="contacts__items">
+              <li class="contacts__item">Saint-Petersburg</li>
+              <li class="contacts__item">
+                <a href="homhom1299@gmail.com" class="contacts__link"
+                  ><i class="fa-solid fa-envelope"></i
+                ></a>
+              </li>
+              <li class="contacts__item">
+                <a href="https://github.com/ta-gin" class="contacts__link"
+                  ><i class="fa-brands fa-github"></i
+                ></a>
+              </li>
+              <li class="contacts__item">
+                <a
+                  href="https://www.codewars.com/users/tat969"
+                  class="contacts__link"
+                ></a>
+              </li>
+            </ul>
+          </section>
+          <section class="skills">
+            <h2 class="heading__secondary">Skills</h2>
+            <ul class="skills__items">
+              <li class="skills__item">
+                HTML<i class="fa-brands fa-html5"></i>
+              </li>
+              <li class="skills__item">
+                CSS<i class="fa-brands fa-css3-alt"></i>
+              </li>
+              <li class="skills__item">
+                Sass<i class="fa-brands fa-sass"></i>
+              </li>
+              <li class="skills__item">
+                JavaScript(basic)<i class="fa-brands fa-js"></i>
+              </li>
+            </ul>
+          </section>
+          <section class="code">
+            <h2 class="heading__secondary">Code</h2>
+            <code class="code__example">
+              <pre>
             function finalGrade(exam, projects) { 
               if (exam > 90 || projects > 10) {
                 return 100; 
@@ -111,45 +125,52 @@
                 return 0; 
               }
             }
-          </pre>
-        </code>
-      </section>
-      <section class="projects">
-        <h2 class="heading__secondary">Code</h2>
-        <ul class="projects__items">
-          <li class="project__item">
-            <a href="https://omnifood-ergin.netlify.app/" class="projects__link"
-              >Omnifood</a
-            >
-          </li>
-        </ul>
-      </section>
-      <section class="courses">
-        <h2 class="heading__secondary">Education & courses</h2>
-        <ul class="courses_items">
-          <li class="courses__item">
-            course "Build Responsive Real-World Websites with HTML and CSS" by
-            Jonas Schmedtmann
-          </li>
-        </ul>
-      </section>
-      <section class="language">
-        <h2 class="heading__secondary">Languages level</h2>
-        <ul class="language__items">
-          <language__item>Russian: native speaker</language__item>
-          <language__item>English:B1</language__item>
-        </ul>
-      </section>
-    </main>
-    <footer class="footer">
-      <a href="https://github.com/ta-gin" class="footer__link"
-        ><i class="fa-brands fa-github"></i
-      ></a>
-      <p class="footer__link">2024</p>
-      <a href="https://rs.school/courses/javascript-ru" class="footer__link"
-        ><img src="assets/icons/rss logo.svg" alt="rss logo"
-      /></a>
-    </footer>
+          </pre
+              >
+            </code>
+          </section>
+          <section class="projects">
+            <h2 class="heading__secondary">Code</h2>
+            <ul class="projects__items">
+              <li class="project__item">
+                <a
+                  href="https://omnifood-ergin.netlify.app/"
+                  class="projects__link"
+                  >Omnifood</a
+                >
+              </li>
+            </ul>
+          </section>
+          <section class="courses">
+            <h2 class="heading__secondary">Education & courses</h2>
+            <ul class="courses_items">
+              <li class="courses__item">
+                course "Build Responsive Real-World Websites with HTML and CSS"
+                by Jonas Schmedtmann
+              </li>
+            </ul>
+          </section>
+          <section class="language">
+            <h2 class="heading__secondary">Languages level</h2>
+            <ul class="language__items">
+              <language__item>Russian: native speaker</language__item>
+              <language__item>English:B1</language__item>
+            </ul>
+          </section>
+        </div>
+      </main>
+      <footer class="footer">
+        <div class="row">
+          <a href="https://github.com/ta-gin" class="footer__link"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <p class="footer__link">2024</p>
+          <a href="https://rs.school/courses/javascript-ru" class="footer__link"
+            ><img src="assets/icons/rss logo.svg" alt="rss logo"
+          /></a>
+        </div>
+      </footer>
+    </div>
   </body>
   <script
     src="https://kit.fontawesome.com/278f21e897.js"
