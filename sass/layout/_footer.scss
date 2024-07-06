@@ -1,0 +1,19 @@
+.footer {
+  padding: 5rem 2rem;
+
+  &__container {
+    @include flex;
+    align-items: center;
+    margin-top: 3rem;
+  }
+
+  &__link {
+    font-size: 1.6rem;
+    width: 10rem;
+    color: $color-text;
+  }
+
+  &__icon {
+    font-size: 4.6rem;
+  }
+}

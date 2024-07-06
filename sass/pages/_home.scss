@@ -65,7 +65,16 @@
 
 .projects {
   &__item {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__img {
+    border-radius: 10px;
+    width: 70%;
+    margin-bottom: 2rem;
   }
 
   &__link {
@@ -76,7 +85,6 @@
 
     &:hover {
       color: $color-primary;
-      border-bottom: 2px solid $color-primary;
     }
   }
 }
