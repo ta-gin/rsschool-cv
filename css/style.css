@@ -26,9 +26,23 @@ body {
   padding: 1.5rem 1rem;
 }
 
-.main-info__img {
-  width: 45%;
-  margin-left: 8rem;
+.heading__primary {
+  font-size: 4rem;
+  color: #212529;
+  letter-spacing: 3px;
+  margin-bottom: 1.5rem;
+}
+.heading__secondary {
+  font-size: 2.5rem;
+  margin: 5rem 0 3rem 0;
+  text-align: center;
+}
+.heading__secondary--sub {
+  color: #868e96;
+}
+
+p {
+  font-size: 1.6rem;
 }
 
 .row {
@@ -62,6 +76,92 @@ body {
 }
 .navigation__link:hover {
   color: #b197fc;
+}
+
+.main-info__img {
+  width: 45%;
+  border-radius: 10px;
+  margin-left: 8rem;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2);
+}
+
+.contacts__items {
+  max-width: 30rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-decoration: none;
+  margin-left: 5rem;
+}
+.contacts__item {
+  display: inline-block;
+  list-style: none;
+  font-size: 1.6rem;
+}
+.contacts__link {
+  text-decoration: none;
+  color: #495057;
+  transition: all 0.4s;
+}
+.contacts__link:hover {
+  color: #b197fc;
+}
+
+.skills__items {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 5rem;
+}
+.skills__item {
+  list-style: none;
+  font-size: 1.6rem;
+}
+.skills__icon {
+  font-size: 3rem;
+  color: #7048e8;
+  transition: all 0.4s;
+  cursor: pointer;
+}
+.skills__icon:hover {
+  color: #b197fc;
+}
+
+.code__example {
+  font-family: "Courier New", Courier, monospace;
+  text-align: left;
+  font-size: 1.4rem;
+}
+
+.projects__item {
+  text-align: center;
+}
+.projects__link {
+  text-decoration: none;
+  font-size: 1.6rem;
+  color: #495057;
+  transition: all 0.3s;
+}
+.projects__link:hover {
+  color: #b197fc;
+  border-bottom: 2px solid #b197fc;
+}
+
+.courses__items {
+  max-width: 40rem;
+  font-size: 1.6rem;
+}
+.courses__item {
+  list-style: none;
+}
+
+.language__items {
+  text-align: center;
+  font-size: 1.6rem;
+  list-style: none;
+}
+.language__item:not(:last-child) {
+  margin-bottom: 1.5rem;
 }
 
 /*# sourceMappingURL=style.css.map */

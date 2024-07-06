@@ -19,30 +19,30 @@
         <nav class="navigation">
           <ul class="navigation__items">
             <li class="navigation__item">
-              <a href="" class="navigation__link">contacts</a>
+              <a href="#contacts" class="navigation__link">contacts</a>
             </li>
             <li class="navigation__item">
-              <a href="" class="navigation__link">summary</a>
-            </li>
-
-            <li class="navigation__item">
-              <a href="" class="navigation__link">skills</a>
+              <a href="#summary" class="navigation__link">summary</a>
             </li>
 
             <li class="navigation__item">
-              <a href="" class="navigation__link">code</a>
+              <a href="#skills" class="navigation__link">skills</a>
             </li>
 
             <li class="navigation__item">
-              <a href="" class="navigation__link">projects</a>
+              <a href="#code" class="navigation__link">code</a>
             </li>
 
             <li class="navigation__item">
-              <a href="" class="navigation__link">education</a>
+              <a href="#projects" class="navigation__link">projects</a>
             </li>
 
             <li class="navigation__item">
-              <a href="" class="navigation__link">english</a>
+              <a href="#education" class="navigation__link">education</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="#lang" class="navigation__link">language</a>
             </li>
           </ul>
         </nav>
@@ -58,9 +58,9 @@
               />
             </div>
           </section>
-          <section class="summary">
+          <section id="summary" class="summary">
             <h1 class="heading__primary">Tatyana Ergina</h1>
-            <h2 class="heading__secondary">Junior Frontend Developer</h2>
+            <h2 class="heading__secondary--sub">Junior Frontend Developer</h2>
             <h2 class="heading__secondary">Summary</h2>
             <p class="summary__text">
               My goal is to become a good developer and gain new knowledge. I am
@@ -69,10 +69,16 @@
               self-control and positive attitude.
             </p>
           </section>
-          <section class="contacts">
+          <section id="contacts" class="contacts">
             <h2 class="heading__secondary">Contacts</h2>
             <ul class="contacts__items">
-              <li class="contacts__item">Saint-Petersburg</li>
+              <li class="contacts__item">
+                <a
+                  href="https://en.wikipedia.org/wiki/Saint_Petersburg"
+                  class="contacts__link"
+                  >St.Petersburg</a
+                >
+              </li>
               <li class="contacts__item">
                 <a href="homhom1299@gmail.com" class="contacts__link"
                   ><i class="fa-solid fa-envelope"></i
@@ -91,70 +97,61 @@
               </li>
             </ul>
           </section>
-          <section class="skills">
+          <section id="skills" class="skills">
             <h2 class="heading__secondary">Skills</h2>
             <ul class="skills__items">
               <li class="skills__item">
-                HTML<i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-html5 skills__icon"></i>
               </li>
               <li class="skills__item">
-                CSS<i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-css3-alt skills__icon"></i>
               </li>
               <li class="skills__item">
-                Sass<i class="fa-brands fa-sass"></i>
+                <i class="fa-brands fa-sass skills__icon"></i>
               </li>
               <li class="skills__item">
-                JavaScript(basic)<i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-js skills__icon"></i>
               </li>
             </ul>
           </section>
-          <section class="code">
+          <section id="code" class="code">
             <h2 class="heading__secondary">Code</h2>
+
             <code class="code__example">
-              <pre>
-            function finalGrade(exam, projects) { 
-              if (exam > 90 || projects > 10) {
-                return 100; 
-              } 
-              else if (exam > 75 && projects >= 5) { 
-                return 90; 
+              var stringToNumber = function(str){
+              <pre></pre>
+              &nbsp; return (Number(str));
+              <pre></pre>
               }
-              else if (exam > 50 && projects >= 2) { 
-                return 75; 
-              } else { 
-                return 0; 
-              }
-            }
-          </pre
-              >
             </code>
           </section>
-          <section class="projects">
-            <h2 class="heading__secondary">Code</h2>
-            <ul class="projects__items">
-              <li class="project__item">
+          <section id="projects" class="projects">
+            <h2 class="heading__secondary">Projects</h2>
+            <div class="projects__items">
+              <div class="projects__item">
+                <div class="projects__picture"></div>
                 <a
                   href="https://omnifood-ergin.netlify.app/"
                   class="projects__link"
                   >Omnifood</a
                 >
-              </li>
-            </ul>
+              </div>
+            </div>
           </section>
-          <section class="courses">
+          <section id="education" class="courses">
             <h2 class="heading__secondary">Education & courses</h2>
-            <ul class="courses_items">
+            <ul class="courses__items">
               <li class="courses__item">
                 course "Build Responsive Real-World Websites with HTML and CSS"
                 by Jonas Schmedtmann
               </li>
             </ul>
           </section>
-          <section class="language">
+          <section id="lang" class="language">
             <h2 class="heading__secondary">Languages level</h2>
             <ul class="language__items">
-              <language__item>Russian: native speaker</language__item>
-              <language__item>English:B1</language__item>
+              <li class="language__item">Russian &#58; native speaker</li>
+              <li class="language__item">English &#58; B1</li>
             </ul>
           </section>
         </div>
