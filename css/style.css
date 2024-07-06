@@ -150,6 +150,7 @@ p {
   font-family: "Courier New", Courier, monospace;
   text-align: left;
   font-size: 1.4rem;
+  white-space: pre-wrap;
 }
 
 .projects__item {
