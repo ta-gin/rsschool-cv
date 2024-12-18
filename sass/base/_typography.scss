@@ -1,0 +1,21 @@
+.heading {
+  &__primary {
+    font-size: 4rem;
+    color: $color-text-dark;
+    letter-spacing: 3px;
+    margin-bottom: 1.5rem;
+  }
+
+  &__secondary {
+    font-size: 2.5rem;
+    margin: 5rem 0 3rem 0;
+    text-align: center;
+    &--sub {
+      color: $color-text-light;
+    }
+  }
+}
+
+p {
+  font-size: 1.6rem;
+}

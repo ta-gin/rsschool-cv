@@ -1,0 +1,27 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  color: $color-text;
+  background-color: $color-primary-light-1;
+}
+
+body {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  background-color: $color-primary-light-2;
+  max-width: 100rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
